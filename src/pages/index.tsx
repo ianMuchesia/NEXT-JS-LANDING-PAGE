@@ -1,8 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+
 import styles from '@/styles/Home.module.css'
 import Hero from '../../components/HomeComponents/Hero'
+import Feature from '../../components/HomeComponents/Feature'
+
+import AboutUs from '../../components/HomeComponents/AboutUs'
+import Portfolio from '../../components/HomeComponents/Portfolio'
+import Testimonials from '../../components/HomeComponents/Testimonials'
 
 
 
@@ -17,6 +21,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
       <Hero/>
+      <Feature/>
+      <AboutUs/>
+      <Portfolio/>
+      <Testimonials/>
       </main>
     </>
   )
