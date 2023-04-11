@@ -1,0 +1,35 @@
+.teamHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamHeader h3{
+    color: var(--color-primary);
+    font-weight:700;
+    letter-spacing: 2px;
+}
+.teamHeader h2{
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.teamImageContainer img{
+    height: 500px;
+    width:400px;
+    object-fit: cover;
+}
+.teamContainer{
+    display:grid;
+    place-items: center;
+
+
+}
+@media screen and (min-width:1080px) {
+    .teamContainer{
+        grid-template-columns:  1fr 1fr 1fr;
+    }
+    
+}
