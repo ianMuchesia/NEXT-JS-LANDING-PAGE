@@ -7,6 +7,7 @@ import Feature from '../../components/HomeComponents/Feature'
 import AboutUs from '../../components/HomeComponents/AboutUs'
 import Portfolio from '../../components/HomeComponents/Portfolio'
 import Testimonials from '../../components/HomeComponents/Testimonials'
+import Team from '../../components/HomeComponents/Team'
 
 
 
@@ -25,6 +26,8 @@ export default function Home() {
       <AboutUs/>
       <Portfolio/>
       <Testimonials/>
+      <Team/>
+      
       </main>
     </>
   )
