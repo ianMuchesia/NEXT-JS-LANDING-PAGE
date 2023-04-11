@@ -17,6 +17,7 @@ li{
   --headingFont: 'Quicksand', sans-serif;
   --bodyFont: 'Poppins', sans-serif;
   --smallText: 0.7em;
+  --color-primary: #0258fc;
 }
 h1,
 h2,
@@ -33,4 +34,5 @@ h5 {
 }
 body{
   font-size: 1.6rem;
+  font-family:var(--bodyFont)
 }
