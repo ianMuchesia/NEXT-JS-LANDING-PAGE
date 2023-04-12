@@ -51,6 +51,12 @@ button{
 button:hover{
   background: var(--grey-800);
 }
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 body{
   font-size: 1.6rem;
   font-family:var(--bodyFont)
