@@ -4,8 +4,9 @@ import styles from "../src/styles/footer.module.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="address">
+    <footer className={styles.footer}>
+      <div className={styles.footerContainer}>
+      <div className={styles.address}>
       <Image
         src="/logo.png"
         alt="logo"
@@ -15,20 +16,22 @@ const Footer = () => {
       />
       <h3>CARE SERVICES AND CONSULTANTS LTD</h3>
       </div>
-      <div className="usefulLinks">
+      <div className={styles.usefulLinks}>
+        <h4>Useful Links</h4>
         <ul>
           <li>Project Info</li>
           <li>Services</li>
           <li>About</li>
         </ul>
       </div>
-      <div className="signUp">
+      <div className={styles.signUp}>
         <p>Keep me up to date with content and updates</p>
         <input type="email"
         placeholder='Enter Your email address' />
         <button>submit</button>
       </div>
-      <div className="groundFooter">
+      </div>
+      <div className={styles.groundFooter}>
       &#169;	{new Date().getFullYear()}CARE SERVICES AND CONSULTANTS LTD
       </div>
     </footer>

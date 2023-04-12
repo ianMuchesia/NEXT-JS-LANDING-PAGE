@@ -8,6 +8,7 @@ import AboutUs from '../../components/HomeComponents/AboutUs'
 import Portfolio from '../../components/HomeComponents/Portfolio'
 import Testimonials from '../../components/HomeComponents/Testimonials'
 import Team from '../../components/HomeComponents/Team'
+import ContactUs from '../../components/HomeComponents/ContactUs'
 
 
 
@@ -27,6 +28,7 @@ export default function Home() {
       <Portfolio/>
       <Testimonials/>
       <Team/>
+      <ContactUs/>
       
       </main>
     </>

@@ -2,8 +2,15 @@ import React from 'react'
 import styles from '../../src/styles/ContactUs.module.css'
 const ContactUs = () => {
   return (
-  <section>
-    <div className={styles.innerContainerContactUs}></div>
+  <section className={styles.contactUsSection}>
+    <div className={styles.innerContainerContactUs}>
+
+    <h4>LETS START</h4>
+    <h1>Start Your New Project</h1>
+    <p>our job goes beyond just imagining and creating beautiful digital design concepts. creating beautiful Our job is also to make...</p>
+
+    <h2>Contact us &gt; </h2>
+    </div>
   </section>
   )
 }
