@@ -6,7 +6,7 @@ const Plan = () => {
     <section className={styles.planSection}>
 <div className={styles.planContainer}>
 <h1>We Plan Before Do.</h1>
-        <p>lorem30</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum voluptas saepe accusantium consequuntur excepturi eligendi ut! Tempore, amet, consequuntur distinctio maxime ducimus, atque alias minima perspiciatis commodi suscipit repellat.</p>
 </div>
         
     </section>

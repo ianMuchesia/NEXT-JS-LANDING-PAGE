@@ -150,6 +150,7 @@ Choose
 }
 .chooseContent p{
     font-size: 0.85em;
+
 }
 @media screen and (min-width:780px) {
     .chooseContent{
@@ -191,8 +192,12 @@ Plan
   font-weight: 800;
   font-size: 2em;
 }
+.planContainer p{
+  text-align: center; 
+}
 @media screen and (min-width:800px) {
   .planContainer{
     min-width: 60%;
   }
 }
+/*    */
