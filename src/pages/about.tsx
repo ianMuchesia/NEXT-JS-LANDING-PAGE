@@ -1,12 +1,18 @@
 import React from 'react'
+import Hero from '../../components/AboutComponents/Hero'
+import Mission from '../../components/AboutComponents/Mission'
+import Choose from '../../components/AboutComponents/Choose'
+import Plan from '../../components/AboutComponents/Plan'
 
 const About = () => {
   return (
     
-    <div>
-        <h1>About</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestias laboriosam aperiam. Optio, repudiandae doloremque?</p>
-    </div>
+    <>
+    <Hero/>
+    <Mission/>
+    <Choose/>
+    <Plan/>
+    </>
   )
 }
 
