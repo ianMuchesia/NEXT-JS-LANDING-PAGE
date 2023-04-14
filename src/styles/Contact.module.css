@@ -104,11 +104,11 @@ Contact Form
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap:2em;
   }
   .form input{
-    min-width: 100%;
+    min-width: 80%;
     border: none;
     border-bottom: 2px solid black;
     padding: 0.5em 1em;
@@ -116,7 +116,7 @@ Contact Form
   }
   .form textarea{
 
-    min-width: 100%;
+    min-width: 80%;
     border: none;
     border-bottom: 2px solid black;
     padding: 0.5em 1em;
