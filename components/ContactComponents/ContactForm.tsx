@@ -59,19 +59,19 @@ const ContactForm = () => {
         <form className={styles.form} onSubmit={handleSubmit} >
             <input
              type="text"
-            placeholder='Full Name&#42;'
+            placeholder="Full Name*"
             value={form.name}
             name='name' 
             onChange={handleChange}/>
              <input 
              type="email"
-            placeholder='Email&#42;' 
+            placeholder='Email*' 
             value={form.email}
             name='email'
             onChange={handleChange}/>
              <input
               type="number"
-            placeholder='Tel&#42;'
+            placeholder='Tel*'
             value={form.tel} 
             name='tel'
             onChange={handleChange}/>

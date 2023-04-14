@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../../src/styles/About.module.css";
+import Image from 'next/image';
 const Mission = () => {
   return (
     <section className={styles.aboutUsSection}>
@@ -14,7 +15,7 @@ const Mission = () => {
         
         </div>
         <div className={styles.imageAboutUsContainer}>
-            <img src='/about.jpg' className={styles.imageAboutUs} alt="about"/> 
+            <Image src='/about.jpg' className={styles.imageAboutUs} height={300} width={600}alt="about"/> 
         </div>
 </section>
   )

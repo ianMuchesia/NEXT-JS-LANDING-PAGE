@@ -1,6 +1,7 @@
 import React from 'react'
 import {FaQuoteLeft} from 'react-icons/fa'
 import styles from '../../src/styles/Testimonial.module.css'
+
 const Testimonials = () => {
   return (
     <section className={styles.testimonialSection}>
@@ -11,7 +12,8 @@ const Testimonials = () => {
     <div className={styles.testimonialContainer}>
     <div className={styles.testimonialCard}>
         <FaQuoteLeft className={styles.quoteIcon}/>
-<p>We have been thoroughly impressed with the services provided by CARE SERVICES AND CONSULTANTS LTD. Their expertise, commitment, and personalized approach have exceeded our expectations. From strategic planning to implementation, their team has been with us every step of the way, providing invaluable guidance and support. Their deep understanding of our business needs, combined with their professionalism and dedication, have made them an invaluable partner in our success. We highly recommend CARE SERVICES AND CONSULTANTS LTD to any business looking for comprehensive consulting and support services.</p>        <h4>Jimmie Benedict</h4>
+        <p>We have been thoroughly impressed with the services provided by CARE SERVICES AND CONSULTANTS LTD. Their expertise, commitment, and personalized approach have exceeded our expectations. From strategic planning to implementation, their team has been with us every step of the way, providing invaluable guidance and support. Their deep understanding of our business needs, combined with their professionalism and dedication, have made them an invaluable partner in our success. We highly recommend CARE SERVICES AND CONSULTANTS LTD to any business looking for comprehensive consulting and support services.</p>
+     <h4>Jimmie Benedict</h4>
         <h4>MARKETING</h4>
     </div>
     <div className={styles.testimonialCard}>
