@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../../src/styles/Portfolio.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 const Portfolio = () => {
   return (
     <section className={styles.portfolioSection}>
@@ -11,7 +12,7 @@ const Portfolio = () => {
         <div className={styles.portfolioContainer}>
             <div>
             <div className={styles.imagePortfolioContainer}>
-                <img src="/gardening.jpg" alt="gardenin" />
+                <Image width={400} height={700} src="/gardening.jpg" alt="gardenin" />
                 
                 <div className={styles.absoluteContainer}>
                 <h3>Complementary</h3>
@@ -22,7 +23,7 @@ const Portfolio = () => {
             </div>
             <div>
             <div className={styles.imagePortfolioContainer}>
-                <img src="/carWash.jpg" alt="car wash services" />
+                <Image width={400} height={500} src="/carWash.jpg" alt="car wash services" />
                 
                 <div className={styles.absoluteContainer}>
                 <h3>Elegant</h3>

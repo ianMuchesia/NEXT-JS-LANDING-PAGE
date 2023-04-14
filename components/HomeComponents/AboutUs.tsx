@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../../src/styles/AboutUs.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const AboutUs = () => {
   return (
@@ -17,7 +18,7 @@ const AboutUs = () => {
             
             </div>
             <div className={styles.imageAboutUsContainer}>
-                <img src='/about.jpg' className={styles.imageAboutUs} alt="about"/> 
+                <Image width={700} height={500} src='/about.jpg' className={styles.imageAboutUs} alt="about"/> 
             </div>
     </section>
   )

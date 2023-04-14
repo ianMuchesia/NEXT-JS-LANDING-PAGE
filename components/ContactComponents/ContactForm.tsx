@@ -53,7 +53,7 @@ const ContactForm = () => {
         <h3>CONTACT</h3>
         <h2>Plase Get In Touch</h2>
         <p>
-        Have a Question or Need More Information? We're Here to Help! Get in Contact with Us Today for Friendly and Professional Assistance.
+        Have a Question or Need More Information? We&apos;re Here to Help! Get in Contact with Us Today for Friendly and Professional Assistance.
         </p>
         </div>
         <form className={styles.form} onSubmit={handleSubmit} >
