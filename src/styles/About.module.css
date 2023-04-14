@@ -197,7 +197,7 @@ Plan
 }
 @media screen and (min-width:800px) {
   .planContainer{
-    min-width: 60%;
+    max-width: 60%;
   }
 }
 /*    */

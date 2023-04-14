@@ -7,10 +7,7 @@ const Plan = () => {
       <div className={styles.planContainer}>
         <h1>We Plan Before Do.</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum
-          voluptas saepe accusantium consequuntur excepturi eligendi ut!
-          Tempore, amet, consequuntur distinctio maxime ducimus, atque alias
-          minima perspiciatis commodi suscipit repellat.
+        We Plan Ahead for Success. We carefully consider and strategize before taking action. Our team ensures that we have a clear plan in place to achieve our goals, making informed decisions based on thorough analysis and thoughtful preparation.
         </p>
       </div>
     </section>
