@@ -17,8 +17,8 @@
 }
 
 .teamImageContainer img{
-    height: 500px;
-    width:400px;
+    height: 400px;
+    width:250px;
     object-fit: cover;
 }
 .teamContainer{
@@ -27,9 +27,22 @@
 
 
 }
-@media screen and (min-width:1080px) {
+@media screen and (min-width:880px) {
+    .teamContainer{
+        grid-template-columns:  1fr  1fr;
+    }
+ 
+    
+.teamImageContainer img{
+    height: 700px;
+    width:400px;
+    object-fit: cover;
+}
+    
+}
+@media screen and (min-width:1180px) {
     .teamContainer{
         grid-template-columns:  1fr 1fr 1fr;
     }
-    
+
 }
