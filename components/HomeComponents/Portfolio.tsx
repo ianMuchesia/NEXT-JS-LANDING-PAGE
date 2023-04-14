@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../../src/styles/Portfolio.module.css'
+import Link from 'next/link'
 const Portfolio = () => {
   return (
     <section className={styles.portfolioSection}>
@@ -52,7 +53,7 @@ const Portfolio = () => {
             </div> */}
             </div>
         </div>
-        <button>VIEW ALL PROJECTS</button>
+       <Link href='/services'><button>VIEW ALL PROJECTS</button></Link> 
     </section>
   )
 }

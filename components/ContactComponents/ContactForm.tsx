@@ -1,6 +1,43 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from "../../src/styles/Contact.module.css";
 const ContactForm = () => {
+
+  const [form , setForm] = useState({
+    name:"",
+    email:"",
+    tel:"",
+    message:"",
+  })
+
+  const handleChange=(e:React.ChangeEvent<HTMLInputElement|HTMLTextAreaElement>)=>{
+    setForm(prevForm=>{
+      const {name , value} = e.target
+      return{
+        ...prevForm,
+        [name]:value
+      }
+    })
+
+  }
+
+  const handleSubmit=(e:React.FormEvent)=>{
+    e.preventDefault()
+    console.log(form)
+    setForm(
+      {
+        name:"",
+        email:"",
+        tel:"",
+        message:"",
+      }
+    )
+    console.log(form)
+
+  }
+
+
+
+
   return (
     <section className={styles.formSection}>
       <div className={styles.formSectionContainer}>
@@ -19,16 +56,31 @@ const ContactForm = () => {
         Have a Question or Need More Information? We're Here to Help! Get in Contact with Us Today for Friendly and Professional Assistance.
         </p>
         </div>
-        <form className={styles.form} >
-            <input type="text"
-            placeholder='Full Name&#42;' />
-             <input type="email"
-            placeholder='Email&#42;' />
-             <input type="number"
-            placeholder='Tel&#42;' />
+        <form className={styles.form} onSubmit={handleSubmit} >
+            <input
+             type="text"
+            placeholder='Full Name&#42;'
+            value={form.name}
+            name='name' 
+            onChange={handleChange}/>
+             <input 
+             type="email"
+            placeholder='Email&#42;' 
+            value={form.email}
+            name='email'
+            onChange={handleChange}/>
+             <input
+              type="number"
+            placeholder='Tel&#42;'
+            value={form.tel} 
+            name='tel'
+            onChange={handleChange}/>
              <textarea 
-            placeholder='Message' />
-            <button type="button">SEND MESSAGE</button>
+            placeholder='Message' 
+            value={form.message}
+            name='message'
+            onChange={handleChange}/>
+            <button>SEND MESSAGE</button>
         </form>
   </div>
       </div>

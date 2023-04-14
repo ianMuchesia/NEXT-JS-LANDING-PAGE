@@ -3,6 +3,7 @@ import {BsTruckFront} from 'react-icons/bs'
 import {GiVacuumCleaner, GiGardeningShears} from 'react-icons/gi'
 import {SiConsul} from 'react-icons/si'
 import styles from '../../src/styles/Feature.module.css'
+import Link from 'next/link'
 const Feature = () => {
   return (
     <section className={styles.featureSection}>
@@ -32,7 +33,7 @@ const Feature = () => {
                 <p>Transform your outdoor space into a lush and vibrant oasis with our professional gardening and landscaping services, tailored to your unique vision and preferences.</p>
             </div>
         </div>
-        <button className={styles.btn}>VIEW ALL SERVICES</button>
+        <Link href="/services"><button className={styles.btn}>VIEW ALL SERVICES</button></Link>
     </section>
   )
 }

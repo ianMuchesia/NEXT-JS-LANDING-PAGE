@@ -1,6 +1,10 @@
-.testimonialSection{
-    
 
+.testimonialContainer{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .testimonialHeader{
     display: flex;
@@ -35,4 +39,9 @@
 
 .testimonialCard h4{
     font-size: 2rem;
+}
+@media screen and (min-width:900px) {
+    .testimonialContainer{
+        flex-direction: row;
+    }
 }

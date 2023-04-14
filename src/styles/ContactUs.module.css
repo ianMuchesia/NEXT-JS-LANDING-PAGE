@@ -27,6 +27,10 @@
   margin: 1em 0em;
   cursor: pointer;
 }
+.contactLink{
+  text-decoration: none;
+  color: white;
+}
 @media screen and (min-width: 670px) {
   .contactUsSection {
     height: 80vh;
@@ -41,6 +45,7 @@
   .innerContainerContactUs p {
     font-size: 1em;
   }
+  
 }
 @media screen and (min-width: 870px) {
   .contactUsSection {

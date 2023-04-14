@@ -18,7 +18,7 @@ const Details = () => {
 <FiSmartphone size={150}/>
 <div className={styles.detailsCardContent}>
     <h2>PHONE :</h2>
-    <p>{"(001) "}123456789 - 234567891 </p>
+    <p>{"(+254) "}728935185 - 728935185 </p>
     <p>info@careServices.com</p>
     
 </div>

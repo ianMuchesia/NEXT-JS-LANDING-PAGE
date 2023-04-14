@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:1em 1.5em;
+    margin:0.3em 1.5em;
 }
 .logo{
      cursor: pointer;
