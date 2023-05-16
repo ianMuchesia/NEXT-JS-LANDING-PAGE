@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import styles from "../../src/styles/Contact.module.css";
+import { ToastContainer, toast } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
+
+
+
+
 const ContactForm = () => {
   const [form, setForm] = useState({
     name: "",
@@ -20,16 +26,35 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(form);
-    setForm({
-      name: "",
-      email: "",
-      tel: "",
-      message: "",
-    });
-    console.log(form);
+    const {name , email , tel , message} = form
+    if(!name || !email || !tel || !message){
+      toast.warn("please fill all the inputs")
+      return;
+    }
+    try {
+      const response = await fetch("https://formsubmit.co/e294c91b5fdd134eaab13773fc8f4810", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+      });
+      if (response.ok) {
+        toast.success('sent successfully')
+        setForm({
+          name: "",
+          email: "",
+          tel: "",
+          message: "",
+        });
+        
+      }
+    } catch (error: any) {
+      toast.error("something wrong happened, try again later")
+      console.log(error)
+    }
   };
 
   return (
@@ -43,6 +68,7 @@ const ContactForm = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
         <div className="">
+        <ToastContainer />
           <div className={styles.formSectionHeader}>
             <h3>CONTACT</h3>
             <h2>Plase Get In Touch</h2>

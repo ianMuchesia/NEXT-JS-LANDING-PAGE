@@ -18,7 +18,7 @@ const Services = () => {
       <div className={styles.servicesContainer}>
         <div className={styles.servicesCard}>
           <MdEmojiTransportation size={150} />
-          <h3>transport and services</h3>
+          <h3>transport services</h3>
           <p>
             Experience Unmatched Excellence in Transportation and Services -
             Your Trusted Partner for Reliable Transportation Solutions and a
@@ -39,7 +39,7 @@ const Services = () => {
 
         <div className={styles.servicesCard}>
           <MdLocalFireDepartment size={150} />
-          <h3>Fire training</h3>
+          <h3>Fire and safety training</h3>
           <p>
             Equip Yourself with Essential Fire Safety Skills - Our Specialized
             Fire Training Programs Offer Comprehensive Instruction and Practical

@@ -20,6 +20,9 @@ const Specialities = () => {
               <span>&#10003;</span> transport services
             </li>
             <li>
+              <span>&#10003;</span> Fire and safety training and consultancy
+            </li>
+            <li>
               <span>&#10003;</span> training and capacity building
             </li>
             <li>

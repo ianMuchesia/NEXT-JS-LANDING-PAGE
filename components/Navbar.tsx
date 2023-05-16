@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header className={styles.navBar}>
       <Image
-        src="/logo.png"
+        src="/LOGO.jpg"
         alt="logo"
         width={67}
         height={77}

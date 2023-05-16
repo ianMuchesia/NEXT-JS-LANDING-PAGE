@@ -14,8 +14,8 @@ const Feature = () => {
         <div className={styles.cardsFeatureSection}>
             <div className={styles.cardFeature}>
                 <BsTruckFront className={styles.iconFeature}/>
-                <h3>Transportation</h3>
-                <p>Efficient and reliable transportation services for all your needs, delivered with professionalism and care</p>
+                <h3>Transport</h3>
+                <p>Efficient and reliable transport services for all your needs, delivered with professionalism and care</p>
             </div>
             <div className={styles.cardFeature}>
                 <GiVacuumCleaner className={styles.iconFeature}/>

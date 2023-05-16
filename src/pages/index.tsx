@@ -13,6 +13,7 @@ import ContactUs from '../../components/HomeComponents/ContactUs'
 
 
 export default function Home() {
+  
   return (
     <>
       <Head>

@@ -18,7 +18,7 @@ const Details = () => {
 <FiSmartphone size={150}/>
 <div className={styles.detailsCardContent}>
     <h2>PHONE :</h2>
-    <p>{"(+254) "}728935185 - 728935185 </p>
+    <p>{"(+254) "}733600222 - 0722537041 </p>
     <p>info@careServices.com</p>
     
 </div>
@@ -27,8 +27,8 @@ const Details = () => {
 <CiLocationOn size={150}/>
 <div className={styles.detailsCardContent}>
     <h2>ADDRESS :</h2>
-    <p>123 Ave, Lorem City,</p>
-    <p> site Country, The World</p>
+    <p>P.O Box 1021-80100</p>
+    <p>Mombasa, Kenya</p>
     
 </div>
 </div>

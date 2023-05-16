@@ -15,7 +15,7 @@ const Footer = () => {
       <div className={styles.footerContainer}>
         <div className={styles.address}>
           <Image
-            src="/logo.png"
+            src="/LOGO.jpg"
             alt="logo"
             width={67}
             height={77}
