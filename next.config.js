@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-}
 
-module.exports = nextConfig
+  async rewrites() {
+    return [
+      {
+        source: '/googleaed096beea148fc0.html',
+        destination: '/google-verification/googleaed096beea148fc0.html',
+      },
+    ];
+  },
+};
