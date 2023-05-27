@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://careservicesandconsultantltd.com/
+
+# Sitemaps
+Sitemap: https://careservicesandconsultantltd.com/sitemap.xml
+Sitemap: https://www.example.com/other-sitemap.xml
