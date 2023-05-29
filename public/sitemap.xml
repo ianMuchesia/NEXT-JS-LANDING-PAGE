@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>https://careservicesandconsultantltd.com/sitemap-home.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://careservicesandconsultantltd.com/sitemap-contact.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://careservicesandconsultantltd.com/sitemap-services.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://careservicesandconsultantltd.com/sitemap-about.xml</loc>
-  </sitemap>
-</sitemapindex>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>https://careservicesandconsultantltd.com/</loc>
+
+      <lastmod>2023-05-27</lastmod>
+
+    
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://careservicesandconsultantltd.com/about</loc>
+
+     <lastmod>2023-05-27</lastmod>
+
+   </url>
+
+   <url>
+
+      <loc>https://careservicesandconsultantltd.com/services</loc>
+ <lastmod>2023-05-27</lastmod>
+
+   </url>
+
+   <url>
+
+      <loc>https://careservicesandconsultantltd.com/contact</loc>
+ <lastmod>2023-05-27</lastmod>
+
+   </url>
+
+
+</urlset>
 
