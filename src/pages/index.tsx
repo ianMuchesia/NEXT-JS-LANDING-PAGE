@@ -21,6 +21,8 @@ export default function Home() {
           name="description"
           content="Discover The World Of Business with Care Services and Consultant LTD."
         />
+        <link rel="icon" href="/favicon.jpg" type="image/jpeg" />
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/LOGO.jpg" />
       </Head>
